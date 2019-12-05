@@ -8,7 +8,7 @@ const StyledText = styled.h1`
   font-family: Verdana;
 `;
 
-export const HomeScreen = () => {
+export const HomePage = () => {
     return (
         <div>
             <StyledText>{`React is online at ${process.env.PORT}`}</StyledText>

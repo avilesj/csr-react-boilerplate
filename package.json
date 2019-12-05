@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "webpack --mode production"
+    "build": "webpack",
+    "dev": "rimraf dist/ && webpack-dev-server --config webpack.development.config.js --hot --mode=development"
   },
   "dependencies": {
     "@hot-loader/react-dom": "^16.11.0",
@@ -21,8 +22,11 @@
     "@babel/preset-react": "^7.7.4",
     "babel-loader": "^8.0.6",
     "file-loader": "^5.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "rimraf": "^3.0.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0",
     "webpack-server": "^0.1.2"
   }
 }
