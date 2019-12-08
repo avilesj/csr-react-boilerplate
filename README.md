@@ -8,6 +8,8 @@ Includes:
 - React Router
 - Redux
 - Dotenv
+- ESLint
+- Rimraf
 - Webpack with:
   - file-loader
   - Webpack-dev-server:
@@ -15,8 +17,6 @@ Includes:
 	- react-hot-loader
 ## TODO       
 - Jest
-- ESLint
-- Rimraf
 
 # Important
 
