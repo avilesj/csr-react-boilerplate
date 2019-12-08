@@ -5,7 +5,9 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack",
-    "dev": "rimraf dist/ && webpack-dev-server --config webpack.development.config.js --hot --mode=development"
+    "dev": "rimraf dist/ && webpack-dev-server --config webpack.development.config.js --hot --mode=development",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix"
   },
   "dependencies": {
     "@hot-loader/react-dom": "^16.11.0",
